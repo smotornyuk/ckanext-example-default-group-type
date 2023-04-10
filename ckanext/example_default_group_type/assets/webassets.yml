@@ -1,0 +1,14 @@
+# example_default_group_type-js:
+#   filter: rjsmin
+#   output: ckanext-example_default_group_type/%(version)s-example_default_group_type.js
+#   contents:
+#     - js/example_default_group_type.js
+#   extra:
+#     preload:
+#       - base/main
+
+# example_default_group_type-css:
+#   filter: cssrewrite
+#   output: ckanext-example_default_group_type/%(version)s-example_default_group_type.css
+#   contents:
+#     - css/example_default_group_type.css

@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/example_default_group_type *.html *.json *.js *.less *.css *.mo *.yml
+recursive-include ckanext/example_default_group_type/migration *.ini *.py *.mako
